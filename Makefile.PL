@@ -1,0 +1,12 @@
+use inc::Module::Install;
+name 'POE-Component-IRC-Plugin-CoreList';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+version_from 'lib/POE/Component/IRC/Plugin/CoreList.pm';
+license 'perl';
+build_requires 'Test::More' => 0.47;
+requires 'warnings::compat' => 0 if $] < 5.006;
+requires 'Module::CoreList' => 2.13;
+requires 'POE' => 0.9999;
+requires 'POE::Component::IRC' => 5.70;
+requires 'POE::Component::IRC::Plugin' => 0.10;
+WriteAll;
