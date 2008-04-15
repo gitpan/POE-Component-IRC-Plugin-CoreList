@@ -6,7 +6,7 @@ use Module::CoreList;
 use POE::Component::IRC::Plugin qw(:ALL);
 use vars qw($VERSION);
 
-$VERSION = '0.02';
+$VERSION = '0.04';
 
 my $cmds  = qr/find|search|release|date/;
 
@@ -211,6 +211,10 @@ The search never returns more than 9 replies, to avoid flooding the channel:
 Chris C<BinGOs> Williams <chris@bingosnet.co.uk>
 
 Philippe "BooK" Bruhat, C<< <book@cpan.org> >>
+
+=head1 LICENSE
+
+This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
