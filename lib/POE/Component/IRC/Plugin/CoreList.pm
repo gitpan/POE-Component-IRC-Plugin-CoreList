@@ -6,7 +6,7 @@ use Module::CoreList;
 use POE::Component::IRC::Plugin qw(:ALL);
 use vars qw($VERSION);
 
-$VERSION = '0.04';
+$VERSION = '0.06';
 
 my $cmds  = qr/find|search|release|date/;
 
@@ -213,6 +213,8 @@ Chris C<BinGOs> Williams <chris@bingosnet.co.uk>
 Philippe "BooK" Bruhat, C<< <book@cpan.org> >>
 
 =head1 LICENSE
+
+Copyright C<(c)> Chris Williams and Philippe Bruhat.
 
 This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
